@@ -30,7 +30,7 @@ if(empty($email) || empty($senha)){
     }
 
 if ($login_valido) { 
-    header("location: feed.php");
+    header("Location: feed.php");
     exit;
 } else { 
     $erro = "e-mail ou senha incorreta.";
@@ -76,4 +76,5 @@ if ($login_valido) {
     </div>
 </div>
 </body>
+
 </html>
